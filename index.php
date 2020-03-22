@@ -139,6 +139,7 @@ if ($mycfg['unlocked']['value'] > 0) {
         <link rel="stylesheet" type="text/css" title="stylesheet" href="css/particles.css">
         <link rel="stylesheet" type="text/css" title="stylesheet" href="css/fontawesome.min.css">
         <link rel="stylesheet" type="text/css" title="stylesheet" href="css/solid.min.css">
+        <link rel="stylesheet" type="text/css" title="stylesheet" href="css/brands.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
 
 
@@ -232,8 +233,17 @@ if ($mycfg['unlocked']['value'] > 0) {
         <?php
     }
     ?>
+    <div id="footer">
+        <p><small>developed with <i class="fas fa-heart"></i> by <a href="https://pixelspace.org">pixelspace.org</a></small>
+        <hr/>
+        <a href="https://github.com/danvers"><i class="fab fa-github"></i></a>
+        <a href="https://github.com/danvers/kleinerdrei"><i class="fas fa-code-branch"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=https%3A%2F%2Fpixelspace.org%2Fkleinerdrei%2F%20spread%20love%20not%20corona%20von%20%40danvers"><i class="fab fa-twitter"></i></a>
+    </p>
     <script src="js/particles.js"></script>
     <script src="js/heart.js"></script>
+    </div>
+
     </body>
     </html>
 <?php

@@ -1,11 +1,13 @@
 html {
-    -webkit-text-size-adjust: none
+    -webkit-text-size-adjust: none;
 }
 body{
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
     line-height: 2em;
     font-weight: 100;
+    padding:0;
+    margin:0;
 }
 p{
     font-weight:100;
@@ -157,7 +159,37 @@ progress::-moz-progress-bar {
     border-radius: 9px;
 }
 
-
+#footer{
+    width:100%;
+    text-align: center;
+    color: #ccc !important;
+    margin:1vw auto 0 auto;
+    padding: 2vw 0;
+    background: rgb(13,50,87);
+    background: radial-gradient(circle, rgba(13,50,87,1) 0%, rgba(2,0,36,1) 100%);
+}
+#footer p{
+    color: #4f7188;
+}
+#footer hr{
+    margin:0 auto;
+    height:1px;
+    padding: 0;
+    border-top: 1px solid #4f7188;
+    width:210px;
+}
+#footer a{
+    padding: 0;
+    margin:0;
+    color:#4f7188;
+    border:none;
+}
+#footer a i{
+    margin: 0 5px;
+}
+#footer a:hover{
+    color: #78a8cb
+}
 @media only screen and (max-width: 600px) {
     h2{
         font-size: 100%;
