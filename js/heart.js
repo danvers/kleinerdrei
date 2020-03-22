@@ -29,7 +29,6 @@
             particles.disintegrate();
             buttonVisible = !buttonVisible;
             curFont += 3;
-            // 400 max
             $('.fa-heart').css('font-size', curFont + 'px');
             $(this).blur();
 
