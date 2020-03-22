@@ -8,5 +8,4 @@ Die App oder das Spiel soll einen positiven Beitrag zum Umgang mit Corona und #s
 - Anime.js (https://animejs.com/)
 - Particle Effects for Buttons (https://github.com/codrops/ParticleEffectsButtons)
 - The Final Countdown Plugin for JQuery (https://github.com/hilios/jQuery.countdown)
-
-Daneben wird Awesomefonts verwendet.
+- FontAwesome (https://fontawesome.com/)
