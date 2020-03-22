@@ -227,7 +227,7 @@ if ($mycfg['unlocked']['value'] > 0) {
     } else {
         ?>
         <div id="progress">
-            <progress class="progress-bar" max="400" value="<?php echo $fontsize; ?>"></progress>
+            <progress class="progress-bar" max="<?php echo $mycfg['max']['value']; ?>>" value="<?php echo $fontsize; ?>"></progress>
         </div>
         <?php
     }
