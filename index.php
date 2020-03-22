@@ -178,7 +178,7 @@ if ($mycfg['unlocked']['value'] > 0) {
             <?php
         }else{
             ?>
-            <p>Drückt das Herz und erfahrt spannende Geschichten, die ihr mit Euren Freunden teilen könnt.</p>
+            <p>Drückt das Herz, lasst es wachsen und erfahrt spannende Geschichten, die ihr mit Euren Freunden teilen könnt.</p>
             <?php
         }
         ?>
